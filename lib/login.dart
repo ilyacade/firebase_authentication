@@ -11,7 +11,7 @@ class _Login extends State<Login> {
   String email = '';
   String password = '';
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  
+
 
   @override
   Widget build(BuildContext context) {
